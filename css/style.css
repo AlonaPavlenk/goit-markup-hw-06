@@ -434,9 +434,9 @@ body {
 }
 
 
-.modal-box-lable:hover,
-.modal-box-lable:focus {
-  border-color: #4d5ae5;
+.modal-input:hover,
+.modal-input:focus {
+  fill: #4D5AE5;
 }
 
 
@@ -456,6 +456,7 @@ body {
 
 .modal-box-form {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .modal-form-ikon {
