@@ -417,8 +417,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 72px;
-  padding-bottom: 0;
   margin-bottom: 16px;
 }
 
@@ -512,6 +510,10 @@ body {
   color: #8e8f99;
 }
 
+.visually-hidden {
+  display: none;
+  }
+
 .modal-chekbox-span {
   width: 16px;
   height: 16px;
@@ -526,7 +528,7 @@ body {
   fill: transparent;
 }
 
-.modal-checkbox-lable:checked + .modal-checkbox-icon {
+.input:checked+label span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -551,6 +553,8 @@ body {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* main page  */
