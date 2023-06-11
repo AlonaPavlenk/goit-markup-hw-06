@@ -342,9 +342,8 @@ body {
 }
 
 /* subscribe */
-
 .subscribe-box {
-gap: 80px;
+  margin-left: 80px;
 }
 
 .subscribe-title {
@@ -353,16 +352,16 @@ gap: 80px;
   font-size: 16px; 
   line-height: 1.5;
   letter-spacing: 0.02em; 
-  color: #ffffff; 
-
+  color: #ffffff;
 }
 
 .subscribe-form {
-  display: flex; 
+  display: flex;
+  gap: 24px; 
 }
 
 .subscribe-lable {
-  gap: 24px;
+ 
 }
 
 .subscribe-input {
