@@ -27,13 +27,13 @@
           >
           <ul class="header-list list">
             <li>
-              <a href="./index.html" class="header-link  link">Studio</a>
+              <a href="./index.html" class="header-link hdr-link  link">Studio</a>
             </li>
             <li>
-              <a href="./portfolio.html" class="header-link  link">Portfolio</a>
+              <a href="./portfolio.html" class="header-link hdr-link  link">Portfolio</a>
             </li>
             <li>
-              <a href="" class="header-link link">Contacts</a>
+              <a href="" class="header-link hdr-link link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -426,7 +426,6 @@
             <svg class="footer-soc-icon" width="24" height="24"><use href="./images/icons.svg#icon-facebook"></use></svg>
           </a>
         </li>
-
           <li class="footer-item"><a class="footer-soc-link link"
             href="" 
             target="_blank"
@@ -436,10 +435,18 @@
         </li>
         </ul>
       </div>
+
+     <!-- subscribe -->
+      <div class="subscribe-box">
+        <p class="subscribe-title">Subscribe</p>
+        <form class="subscribe-form"> <label for="" class="subscribe-lable"> <input type="email" name="" placeholder="E-mail" class="subscribe-input"></label>
+        <button type="submit" class="subscribe-btn">Subscribe <svg  width="24" height="24" class="subscribe-icon"><use href="./images/icons.svg#icon-Telegram"></use></svg></button>
+      </form>
+        </div>
       </div>
     </footer>
 
-    <!-- MODAL -->
+    <!-- modal -->
 
     <div class="backdrop  is-hidden" data-modal>
       <div class="modal-close" >
@@ -451,7 +458,6 @@
     </button>
 
      <!-- FORM -->
-<div class="modal-form-box">
 <p class="modal-title">Leave your contacts and we will call you back</p>
 <form class="modal-form">
   <div class="modal-box-lable">
@@ -468,7 +474,7 @@
 <div class="modal-box-lable" >
   <label for="user-name" class="modal-form-lable">Phone</label>
   <div class="modal-box-form">
-    <input id="user-phon" type="text" name="user-name" class="modal-input" placeholder="" required>
+    <input id="user-phon" type="text" name="user-phon" class="modal-input" placeholder="" required>
     <svg width="18" height="24" class="modal-form-icon">
        <use href="./images/icons.svg#icon-Phone"></use>
       </svg>
@@ -478,7 +484,7 @@
 <div class="modal-box-lable">
   <label for="user-name" class="modal-form-lable">Email</label>
   <div class="modal-box-form">
-    <input id="user-email" type="text" name="user-name" class="modal-input" placeholder="" required>
+    <input id="user-email" type="text" name="user-email" class="modal-input" placeholder="" required>
     <svg width="18" height="24" class="modal-form-icon">
        <use href="./images/icons.svg#icon-Email"></use>
       </svg>
@@ -501,7 +507,6 @@
 </div>
 <button class="modal-form-btn">Send</button>
 </form>
-</div>
   </div>
   </div>
     <script src="./js/modal.js"></script>
