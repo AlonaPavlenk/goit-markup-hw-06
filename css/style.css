@@ -582,14 +582,6 @@ body {
   color: #8e8f99;
 }
 
-.modal-checkbox-title {
-  margin-left: 8px;
-}
-
-.modal-checkbox-icon {
-gap: 8px;
-}
-
 .modal-checkbox-span {
   width: 16px;
   height: 16px;
@@ -602,6 +594,7 @@ gap: 8px;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .modal-checkbox-input:checked + .modal-checkbox-lable .modal-checkbox-span {
