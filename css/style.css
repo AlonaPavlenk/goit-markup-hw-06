@@ -571,11 +571,23 @@ body {
   margin-bottom: 24px;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 .modal-checkbox-lable {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+.modal-checkbox-title {
+  margin-left: 8px;
+}
+
+.modal-checkbox-icon {
+gap: 8px;
 }
 
 .modal-checkbox-span {
@@ -597,12 +609,6 @@ body {
   border: none;
   fill: #f4f4fd;
 }
-
-/* .modal-checkbox-icon {
- width: 16px;
- height: 16px;
- background-color: #404bbf;
-} */
 
 .modal-form-link {
   color: #4d5ae5;
